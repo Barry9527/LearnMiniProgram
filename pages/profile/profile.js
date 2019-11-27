@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/profile/profile.js
 Page({
 
   /**
@@ -6,10 +6,6 @@ Page({
    */
   data: {
 
-  },
-
-  handleGetUserinfo(event){
-      console.log(event)
   },
 
   /**

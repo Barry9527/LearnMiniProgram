@@ -1,3 +1,6 @@
 <!--pages/home/home.wxml-->
-<text class="title">Hello world</text>
-<button size="mini">按钮</button>
+<view class="page-body">
+    <open-data  type="userAvatarUrl"></open-data>
+    <open-data type="userNickName"></open-data>
+  <button size="mini" open-type="getUserInfo" bindgetuserinfo="handleGetUserinfo">获取授权</button>
+</view>

@@ -1,5 +1,21 @@
 /* pages/home/home.wxss */
-.title{
-  color:red;
+
+.title {
+  color: red;
   font-size: 30px;
+}
+
+.page-body {
+  width: 150px;
+  height: 150px;
+  padding: 100px 100px 100px 100px;
+}
+
+.page-body.img{
+   width: 150px;
+}
+
+.imgsize {
+  width: 10rpx;
+  height: 10rpx;
 }
